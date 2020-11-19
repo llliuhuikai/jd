@@ -24,6 +24,7 @@ public class IndexController {
         Map<String,Object> map=new HashMap();Map<String,Object> map2=new HashMap();
         List<Map<String,Object>> list=new ArrayList<>();
         map.put("name","张三");
+        System.out.println(map);
         map.put("age",30);map2.put("name","李四");
         map2.put("age",33);
         list.add(map2);
